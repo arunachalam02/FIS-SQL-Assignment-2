@@ -74,3 +74,4 @@ select ename,deptno,datediff(year,hiredate,getdate()) as experience from emp whe
 select dept.dname,emp.ename from emp inner join dept on emp.deptno=dept.deptno order by dept.dname asc,emp.ename desc
 
 select datediff(year,hiredate,getdate()) as experience from emp where ename='MILLER'
+
